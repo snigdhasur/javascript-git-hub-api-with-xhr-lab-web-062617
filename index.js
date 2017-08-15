@@ -44,5 +44,5 @@ function getBranches(el){
 	req.addEventListener("load", getBranches)
 	req.open("GET", 'https://api.github.com/repos/' + username + '/' + name + '/branches')
     req.send()	
- 
+   
 }
